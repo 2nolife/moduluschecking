@@ -1,7 +1,7 @@
 package checkers
 
 import (
-	m "github.com/AntoineAugusti/moduluschecking/models"
+	m "github.com/2nolife/moduluschecking/models"
 )
 
 // FollowsException3 checks if we follow the criteria of the exception 3

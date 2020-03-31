@@ -1,8 +1,8 @@
 package algorithms
 
 import (
-	"github.com/AntoineAugusti/moduluschecking/helpers"
-	m "github.com/AntoineAugusti/moduluschecking/models"
+	"github.com/2nolife/moduluschecking/helpers"
+	m "github.com/2nolife/moduluschecking/models"
 )
 
 // Perform the double alternate algorithm and return

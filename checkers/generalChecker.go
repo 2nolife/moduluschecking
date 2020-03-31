@@ -1,8 +1,8 @@
 package checkers
 
 import (
-	"github.com/AntoineAugusti/moduluschecking/algorithms"
-	m "github.com/AntoineAugusti/moduluschecking/models"
+	"github.com/2nolife/moduluschecking/algorithms"
+	m "github.com/2nolife/moduluschecking/models"
 )
 
 type GeneralChecker struct {

@@ -6,8 +6,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/AntoineAugusti/moduluschecking/helpers"
-	m "github.com/AntoineAugusti/moduluschecking/models"
+	"github.com/2nolife/moduluschecking/helpers"
+	m "github.com/2nolife/moduluschecking/models"
 )
 
 // Describes the content of a file.
@@ -161,7 +161,7 @@ func readFile(path string, jobs chan<- LineRecord) {
 // the parser interface.
 func CreateFileParser() m.Parser {
 	goPath := path.Clean(os.Getenv("GOPATH"))
-	dataPath := goPath + "/src/github.com/AntoineAugusti/moduluschecking/data/"
+	dataPath := goPath + "/src/github.com/2nolife/moduluschecking/data/"
 
 	return FileParser{
 		weightsPath:       dataPath + "weights.txt",

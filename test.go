@@ -26,5 +26,6 @@ func main() {
     bankAccount := models.CreateBankAccount("089999", "66374958")
 
     // Check if the created bank account is valid against the rules
+    fmt.Print("Bank account 08-99-99 66374958. Valid: ")
     fmt.Println(resolver.IsValid(bankAccount))
 }
